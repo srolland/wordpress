@@ -4,6 +4,8 @@
 * Uses proper escaping and validation to ensure CI pass
 * Add to site in functions.php with:
 * require_once( get_template_directory() . '/widget_json.php' );
+*
+* @uses widget_json.php
 */
 
 define( 'PN_CMJ_URI', plugins_url( '', __FILE__ ) );
